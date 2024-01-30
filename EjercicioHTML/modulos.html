@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Modulos y requerimientos funcionales</title>
+</head>
+
+<body>
+    <h1>Usuarios</h1>
+    <!-- Contenido de la página -->
+    <h3>Índice</h3>
+    <ol>
+        <li><a href="#info_basica">Información básica</a></li>
+        <li><a href="#produccion">Producción</a></li>
+        <li><a href="#reproduccion">Reproducción</a></li>
+        <li><a href="#alimentacion">Alimentación</a></li>
+        <li><a href="#sanitario">Sanitario</a></li>
+        <li><a href="#reporte">Reporte trabajo diario</a></li>
+    </ol>
+
+    <h4 id="info_basica">Información básica</h4>
+    <p>La plataforma permite el ingreso, edición y eliminación de información
+        básica como las vacas y fincas.</p>
+
+    <h4 id="produccion">Producción</h4>
+    <p>Esté es el módulo donde el usuario una vez ingrese los pesajes diarios tanto
+        de la finca como individual por vaca; una vez se ingresa esta información la
+        aplicación deberá entregar indicadores como pesaje desde el último parto y
+        gráficas (1) Producción promedio por vaca por litros por día, (2) litros por
+        hectárea año, (3) litros/trabajador/día.</p>
+
+    <h4 id="reproduccion">Reproducción</h4>
+    <p>Los usuarios en este módulo ingresan la información reproductiva como los
+        servicios, los diagnósticos de preñez, la terminación del estado de preñez;
+        con esta información la plataforma calculará indicadores como:
+    </p>
+
+    <ul>
+        <li>cantidad de partos</li>
+        <li>fecha del último parto</li>
+        <li>días de gestación</li>
+        <li>Días en leche</li>
+        <li>Días abiertos</li>
+        <li>Intervalo promedio entre partos</li>
+        <li>servicios promedios por concepción</li>
+    </ul>
+
+    <p>La aplicación generará notificaciones, es decir, le deberá avisar en la fecha
+        que se debe realizar las actividades (1) servicio, (2) examinar preñez, (3)
+        reconfirmar preñez, (4) secado, (5) preparto, (6) evaluación condición
+        corporal, (7) Siguiente servicio, (8) Observar calor.</p>
+
+    <h4 id="alimentacion">Alimentación</h4>
+    <p>La aplicación una vez se le ingresa el pesaje, la aplicación le calcula los datos
+        de alimentación como (1) relación, (2) cantidad de concentrado Alto, (3)
+        Bajo y la cantidad.
+    </p>
+
+    <h4 id="sanitario">Sanitario</h4>
+    <p>Los usuarios podrán ingresar información sobre vacunación y enfermedades
+        de las vacas. En caso de que la vaca deba ser retirada del hato, se ingresa la
+        fecha de reintegro, la aplicación le notifica el día que lo debe realizar</p>
+
+    <h4 id="reporte">Reporte trabajo diario</h4>
+    <p>Los usuarios en la finca podrán revisar las tareas diarias que deben realizar,
+        además de notificar la finalización. Diariamente la aplicación genera un
+        correo al administrador donde revisa las tareas diarias que realizaron y las
+        que no se han terminado.
+    </p>
+</body>
+
+</html>
